@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backatown cafe </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <div class="logo">
+                <img src="2.jpeg" alt="Backatown Logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <img src="img.jpeg" alt="Backatown">
+        <div class="hero-text">
+            <h1>Backatown A coffe parlour </h1>
+            <p>A Historic Gathering House</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Backatown Coffee Parlour, located at the very site of old Storyville, embodies the aura of the time where you could hear the sounds of Jelly Roll Morton, Louis Armstrong, and King Oliver and meet folks from all walks of life. We strive to present Backatown as an authentic New Orleans gathering space that helps cultivate our neighborhoods through the fostering of ideas and conversations.
+            Backatown is a locally-owned coffee boutique designed to reflect the unique personality and charm of old Storyville with excellent offerings and customer service. There is something for everyone here. In addition to premium coffee and espresso drinks, the boutique also serves loose leaf teas, juice, fresh-baked pastries, and desserts along with an assortment of light fare meals for families to enjoy.</p>
+        <p>location:301 Basin Street, Suite 1, New Orleans, LA 70112</p>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>have a nice day :)</p>
+    </footer>
+</body>
+</html>
